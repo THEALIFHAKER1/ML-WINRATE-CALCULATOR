@@ -1,0 +1,79 @@
+body {
+  background-color: black !important;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  margin-top: 20px;
+  background-color: burlywood !important;
+}
+
+label, #Result {
+  color: burlywood !important;
+}
+
+#footer {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+svg {
+  color: burlywood;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+}
+
+#footer .social-links a {
+  border: 2px solid burlywood;
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+  line-height: 1;
+  padding: 5px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
