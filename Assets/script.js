@@ -14,6 +14,10 @@ function res() {
     document.getElementById("TotalMatch").defaultValue = "351";
     document.getElementById("TotalWinRate").defaultValue = "51.4";
     document.getElementById("WinRateTarget").defaultValue = "70";
+    if(isNaN(TotalMatch) || isNaN(TotalWinRate) || isNaN(WinRateTarget)){
+        text = `Invalid input`;
+        Result.innerHTML = text;
+    }
     let resultNum = rumus(TotalMatch.value, TotalWinRate.value, WinRateTarget.value);
     if (resultNum > 0.0){
         text = `Need around <b>${resultNum}</b> win without lose to reach <b>${WinRateTarget.value}%</b> win rate`;
